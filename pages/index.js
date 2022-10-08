@@ -19,19 +19,27 @@ export default function Home({ exploreData }) {
         <section className="px-8 pt-6 mx-auto">
           <h2 className="pb-5 text-2xl font-semibold">Local Stays</h2>
 
-          {/* Pull data from destinations.json -- Getting an error trying to map the JSON data because .map function only works on arrays */}
+          {/* Pull data from destinations.json */}
+          {exploreData?.map((item) => (
+            <h1>{item.location}</h1>
+          ))}
+
+          
         </section>
       </main>
     </div>
   )
 }
 
-// export async function getStaticProps() {
-//   const explore = await fetch('http://localhost:3000/destinations.json')
-//   const exploreData = await explore.text()
-//   return {
-//     props: {
-//       exploreData,
-//     },
-//   }
-// }
+export async function getStaticProps() {
+  const exploreData = await fetch(
+    'https://api.npoint.io/2ee15f88aa41220f0d95'
+  ).then((res) => res.json())
+  return {
+    props: {
+      exploreData,
+    },
+  }
+}
+
+
