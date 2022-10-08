@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h4 align="center">An interpretation of Airbnb's website. </h4>
+<h4 align="center">An interpretation of Airbnb's website </h4>
 
 <!-- ![screenshot](github screenshot link) -->
 
