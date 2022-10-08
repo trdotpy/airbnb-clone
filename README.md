@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h4 align="center">An interpretation of Airbnb's home page - built with <a href="http://nextjs.org" target="_blank">Next.js</a>.</h4>
+<h4 align="center">An interpretation of Airbnb's website. </h4>
 
 <!-- ![screenshot](github screenshot link) -->
 
