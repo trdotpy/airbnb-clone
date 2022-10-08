@@ -1,0 +1,42 @@
+[
+  {
+    "img": "https://ibb.co/0nsDWvZ",
+    "location": "New York City",
+    "distance": "45-minute drive"
+  },
+  {
+    "img": "https://ibb.co/J5wD650",
+    "location": "Chicago",
+    "distance": "4.5-hour drive"
+  },
+  {
+    "img": "https://ibb.co/qB3FS6p",
+    "location": "Los Angeles",
+    "distance": "4.5-hour drive"
+  },
+  {
+    "img": "https://ibb.co/JjfK2DN",
+    "location": "Dallas",
+    "distance": "4-hour drive"
+  },
+  {
+    "img": "https://ibb.co/PQ0PQQf",
+    "location": "Miami",
+    "distance": "45-minute drive"
+  },
+  {
+    "img": "https://ibb.co/BBTPRsD",
+    "location": "Boston",
+    "distance": "4.5-hour drive"
+  },
+  {
+    "img": "https://ibb.co/7rpZQrD",
+    "location": "Washington DC",
+    "distance": "6-hour drive"
+  },
+  {
+    "img": "https://ibb.co/FYp5kW3",
+    "location": "Seattle",
+    "distance": "2-hour drive"
+  }
+]
